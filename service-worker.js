@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ofoq-login/precache-manifest.8423983e69d94ac79a81822bed351cec.js"
+  "/ofoq-login/precache-manifest.bd47d8eb4d3e9ba12febe187a2786d7e.js"
 );
 
 self.addEventListener('message', (event) => {
