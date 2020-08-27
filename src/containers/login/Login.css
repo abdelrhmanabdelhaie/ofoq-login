@@ -1,0 +1,78 @@
+
+
+@media all and (min-width: 480px) {
+  * {
+    box-sizing: border-box;
+  }
+  
+    .Login {
+      padding: 100px 0;
+      font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+      font-size: 15px;
+      width: 100%;
+      height: fit-content;
+      margin: 0 auto;
+      background-color:blue;
+    }
+  
+    .Login form {
+      padding: 40px;
+      border: 3px solid white;
+      border-radius: 20px;
+      width: 1000px;
+      height: 450px;
+      margin: 0 auto;
+      max-width: 400px;
+      background-color: white;
+    }
+
+    .Login form .signIn{
+      padding:  0 37%;
+      color: black;
+      font-size: 22px;
+      align-items: center;
+    }
+
+    .Login form .formGroup1{
+      padding:  20px 0;
+      margin: 10px auto;
+    }
+    .Login form .formGroup2{
+      padding:  10px 0;
+      margin: 10px auto;
+    }
+    .Login form .formGroup .controlLabel{
+      color: black;
+    }
+    .form-control {
+      margin-top: 10px;
+      border: 1px solid darkgray;
+      box-shadow:1px 1px 3px 3px gainsboro;
+      border-radius: 5px;
+      min-width: 0;
+      width: 100% !important;
+      height: 40px !important;
+      color:darkgray;
+      font-size: 15px;
+      font-weight: bold;
+      text-indent:20px
+  }
+
+  .btn{
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100% !important;
+    height: 40px !important;
+  }
+
+  .btn:disabled{
+    background-color: darkgrey;
+  }
+  
+
+ 
+  }
